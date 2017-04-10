@@ -4,6 +4,7 @@ def number_needed(a, b):
     total = 0
     dic_a = {}
     dic_b = {}
+    
     for x in a:
         if x not in dic_a.keys():
             dic_a[x] = 1
